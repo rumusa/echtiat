@@ -1,5 +1,6 @@
-from echtiat.auth.user import User
+import echtiat.auth.userhelper as userhelper
+import getpass
 
 # Main logic
 def run():
-    print("Test")
+    userhelper.user_signin()
